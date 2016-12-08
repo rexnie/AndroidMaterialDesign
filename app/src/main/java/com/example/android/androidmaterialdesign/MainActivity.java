@@ -12,12 +12,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.btn_palette).setOnClickListener(this);
+        findViewById(R.id.btn_elevation).setOnClickListener(this);
     }
 
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_palette:
                 startActivity(new Intent(this, PaletteActivity.class));
+                break;
+            case R.id.btn_elevation:
+                startActivity(new Intent(this, ElevationActivity.class));
                 break;
         }
     }
