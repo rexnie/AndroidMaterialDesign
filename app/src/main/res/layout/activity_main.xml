@@ -25,4 +25,11 @@
         android:id="@+id/btn_tinting_clipping"
         android:text="TintingClipping"
         android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_recycler_view"
+        android:text="RecyclerView"
+        android:textAllCaps="false"/>
 </LinearLayout>

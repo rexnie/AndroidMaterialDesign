@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".TintingClippingActivity">
         </activity>
+        <activity android:name=".RecyclerActivity">
+        </activity>
     </application>
 
 </manifest>
