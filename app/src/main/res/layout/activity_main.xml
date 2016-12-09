@@ -18,4 +18,11 @@
         android:id="@+id/btn_elevation"
         android:text="Elevation"
         android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tinting_clipping"
+        android:text="TintingClipping"
+        android:textAllCaps="false"/>
 </LinearLayout>

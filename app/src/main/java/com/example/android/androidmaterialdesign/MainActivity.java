@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findViewById(R.id.btn_palette).setOnClickListener(this);
         findViewById(R.id.btn_elevation).setOnClickListener(this);
+        findViewById(R.id.btn_tinting_clipping).setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -22,6 +23,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_elevation:
                 startActivity(new Intent(this, ElevationActivity.class));
+                break;
+            case R.id.btn_tinting_clipping:
+                startActivity(new Intent(this, TintingClippingActivity.class));
                 break;
         }
     }
