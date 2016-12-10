@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_card_view).setOnClickListener(this);
         findViewById(R.id.btn_scene_transition_animation).setOnClickListener(this);
         findViewById(R.id.btn_ripple).setOnClickListener(this);
+        findViewById(R.id.btn_circular_reveal).setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -42,6 +43,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_ripple:
                 startActivity(new Intent(this, RippleActivity.class));
+                break;
+            case R.id.btn_circular_reveal:
+                startActivity(new Intent(this, CircularRevealActivity.class));
                 break;
         }
     }
