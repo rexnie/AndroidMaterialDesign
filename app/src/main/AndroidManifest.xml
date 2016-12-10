@@ -25,6 +25,10 @@
         </activity>
         <activity android:name=".CardViewActivity">
         </activity>
+        <activity android:name=".TransitionAActivity">
+        </activity>
+        <activity android:name=".TransitionBActivity">
+        </activity>
     </application>
 
 </manifest>

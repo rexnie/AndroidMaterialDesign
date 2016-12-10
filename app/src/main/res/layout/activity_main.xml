@@ -39,4 +39,11 @@
         android:id="@+id/btn_card_view"
         android:text="CardView"
         android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_scene_transition_animation"
+        android:text="SceneTransitionAnimation"
+        android:textAllCaps="false"/>
 </LinearLayout>

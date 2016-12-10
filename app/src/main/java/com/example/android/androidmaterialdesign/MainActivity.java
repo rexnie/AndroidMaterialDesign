@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_tinting_clipping).setOnClickListener(this);
         findViewById(R.id.btn_recycler_view).setOnClickListener(this);
         findViewById(R.id.btn_card_view).setOnClickListener(this);
+        findViewById(R.id.btn_scene_transition_animation).setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -34,6 +35,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_card_view:
                 startActivity(new Intent(this, CardViewActivity.class));
+                break;
+            case R.id.btn_scene_transition_animation:
+                startActivity(new Intent(this, TransitionAActivity.class));
                 break;
         }
     }
