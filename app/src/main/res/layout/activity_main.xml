@@ -46,4 +46,11 @@
         android:id="@+id/btn_scene_transition_animation"
         android:text="SceneTransitionAnimation"
         android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ripple"
+        android:text="Ripple"
+        android:textAllCaps="false"/>
 </LinearLayout>

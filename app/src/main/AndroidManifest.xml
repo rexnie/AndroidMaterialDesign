@@ -29,6 +29,8 @@
         </activity>
         <activity android:name=".TransitionBActivity">
         </activity>
+        <activity android:name=".RippleActivity">
+        </activity>
     </application>
 
 </manifest>
